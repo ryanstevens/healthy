@@ -4,10 +4,10 @@ var middleware  = require('./lib/middleware'),
     _           = require('underscore');
 
 
-function HealthCheck(options, initialModel) {
+function HealthCheck(initialModel, options) {
 
   if (!(this instanceof HealthCheck)) {
-    return new HealthCheck(options, initialModel);
+    return new HealthCheck(initialModel, options);
   }
 
   this.options = _.extend({
