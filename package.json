@@ -1,6 +1,6 @@
 {
   "name": "healthy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add a health check your Node.js web application",
   "main": "index.js",
   "dependencies": {
